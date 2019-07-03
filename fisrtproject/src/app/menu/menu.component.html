@@ -1,0 +1,9 @@
+<!-- <p>
+  menu works!
+</p> -->
+<div class="topnav">
+  <a *ngFor="let item of list" (click)="onnavigation(item)">{{item.name}}</a>
+</div>
+<router-outlet></router-outlet>
+
+
